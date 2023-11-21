@@ -31,9 +31,6 @@ section {
 button {
   border-radius: 999px;
   padding: 12px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 button:hover {
@@ -87,8 +84,13 @@ ul {
   display: flex;
   gap: 10px;
 }
-/* HEADER-END */
-/* HERO-START */
+@media screen and (max-width: 1120px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+/* HEADER-END */ /* HERO-START */
 .hero-content {
   display: flex;
   align-items: center;
@@ -130,17 +132,97 @@ ul {
   background-color: transparent;
   color: white;
 }
+.btn-outline-white {
+  border: none;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  transition: ease-in-out;
+  transition: 0.3s;
+}
+.btn-outline-white:hover {
+  transition: ease-in-out;
+  transition: 0.3s;
+  color: black;
+}
 .hero-right {
   display: flex;
   align-items: end;
   width: 50%;
   gap: 30px;
+  max-width: 50%;
+  box-sizing: border-box;
 }
 .hero-right img {
   width: 50%;
   border-radius: 24px;
+  max-width: 50%;
+  flex-shrink: 1;
   flex: 1;
 }
 .hero-right img:first-child {
   /* height: 250px; */
+}
+/* hero-end */
+/* MEDICAL-SECTION */
+
+.medical-section-content {
+  display: flex;
+
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.medical-row {
+  display: flex;
+  gap: 55px;
+}
+.medical-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 23px;
+  padding: 25px;
+  padding-right: 60px;
+  gap: 20px;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition: 0.3s;
+}
+.medical-card:hover {
+  transition: ease-in-out;
+  transition: 0.3s;
+  color: var(--blue);
+  background-color: #eff6ff;
+}
+.medical-card img {
+  width: 45px;
+}
+.med-img-div img {
+  display: flex;
+  align-items: center;
+  background-color: #eff6ff;
+  border-radius: 15px;
+  padding: 10px;
+}
+.flex-arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex-arrow img {
+  width: 20px;
+}
+
+.medical-row h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.medical-row p {
+  margin: 0;
+  font-size: 14px;
+}
+.medical-section-content h2 {
+  margin: 0;
+  font-size: 48px;
 }
