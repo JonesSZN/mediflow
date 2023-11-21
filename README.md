@@ -17,7 +17,7 @@
   
 
 # I Tried responsive on the Health Section
-## The Emergency section height is not the the same as the left.
+## The Emergency section right image is not the same as the left.
 ### I tried responive for Emergency Section and Its not Working
 ### Does it matter it matter that the width of the emergency-card box is not the exact same width as theirs. I Tried adding a max width on the P tags but couldnt get the exact same.
 
