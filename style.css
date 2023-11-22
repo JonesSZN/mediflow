@@ -284,6 +284,9 @@ ul {
   .medical-row p {
     font-size: 12px;
   }
+  .medical-section-content {
+    width: 95%;
+  }
 }
 /* MEDICAL-END */
 
@@ -327,7 +330,7 @@ ul {
 }
 @media screen and (max-width: 1120px) {
   .Health-section-content {
-    width: 100%;
+    width: 95%;
     flex-direction: column;
     gap: 15px;
     padding: 30px;
@@ -399,7 +402,7 @@ p {
 /* RESPONSIVE-EMERGENCY */
 @media screen and (max-width: 1120px) {
   .emergency-section-content {
-    width: 100%;
+    width: 95%;
     flex-direction: column;
   }
   .emergency-left {
@@ -530,7 +533,7 @@ p {
 /* RESPONSIVE */
 @media screen and (max-width: 1120px) {
   .team-grid-container {
-    width: 100%;
+    width: 95%;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -539,6 +542,16 @@ p {
   }
   .top-team-group h2 {
     font-size: 24px;
+  }
+  .team-card img {
+    width: 100%;
+  }
+  .top-team-group p {
+    font-size: 12px;
+    max-width: 300px;
+  }
+  .top-team-group {
+    align-items: center;
   }
 }
 /* TEAM-SECTION-END */
@@ -628,3 +641,199 @@ p {
   }
 }
 /* REVIEW-END */
+/* SPECIAL-SECTION */
+.special-section {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  width: 100%;
+}
+.special-justify-between {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.special-split-flex {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+.special-right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.special-right-card-flex {
+  display: flex;
+  align-items: start;
+
+  gap: 18px;
+}
+.card-col-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* TEXT-STYLES */
+.special-left img {
+  width: 675px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px 0 #fff, rgba(174, 174, 192, 0.4);
+}
+
+.special-right h2 {
+  margin: 0;
+}
+.special-justify-between p {
+  max-width: 500px;
+  font-size: 16px;
+}
+.special-justify-between h2 {
+  font-size: 48px;
+}
+.special-right-card-flex h2 {
+  font-size: 24px;
+}
+.special-right-card-flex img {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #eff6ff;
+}
+.special-right-card-flex p {
+}
+/* RESPONSIVE */
+
+@media screen and (max-width: 1120px) {
+  .special-section {
+    width: 95%;
+  }
+  .special-justify-between {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .special-justify-between h2 {
+    font-size: 24px;
+  }
+  .special-split-flex {
+    flex-direction: column;
+  }
+  .special-left img {
+    width: 100%;
+  }
+  #test {
+    font-size: 16px;
+  }
+}
+/* SPECIAL-END */
+/* MATURNITY-SECTION */
+.maturnity-section {
+  display: flex;
+  width: 100%;
+  padding: 30px 0px;
+  gap: 50px;
+}
+.maturnity-left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.maturnity-card-flex {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+}
+.maturnity-col-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* TEXT-STYLES */
+.maturnity-card-flex img {
+  background-color: #eff6ff;
+  padding: 10px;
+  border-radius: 15px;
+}
+.maturnity-left h2 {
+  margin: 0;
+}
+.maturnity-right img {
+  width: 675px;
+  border-radius: 20px;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 1120px) {
+  .maturnity-section {
+    width: 95%;
+    flex-direction: column;
+  }
+  .maturnity-right img {
+    width: 100%;
+  }
+}
+/* MATURNITY-END */
+/* APPOINTMENT-SECTION */
+.Appointment-section {
+  display: flex;
+  width: 100%;
+  padding: 120px 40px;
+  background-color: var(--blue);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.appointment-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.appointment-left {
+  width: 50%;
+}
+form {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.input-group {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+/* TEXT-STYLES */
+.appointment-left img {
+  width: 500px;
+  border-radius: 20px;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 1120px) {
+  .Appointment-section {
+    width: 95%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .appointment-left img {
+    width: 100%;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-group {
+    width: 100%;
+  }
+}
