@@ -22,3 +22,21 @@
     - You had a static width on the image, and you didn't make left and right 100%.
 8. Does it matter it matter that the width of the emergency-card box is not the exact same width as theirs. I Tried adding a max width on the P tags but couldnt get the exact same.
     - It doesn't have to be the exact same size, but same proportions and also same fractional size of the total width. I can explain this more tonight.
+  
+
+# Team section card is too big compared to theirs.
+## the images in team section is awful, they didnt have their imgs in src.
+## The hover effects are awful and bugged.
+##Layout Perfeced.
+# tried responsive.
+
+
+# Review Section Layout  **PERFECTED.**
+## The first issue is not using line breaks. every since my dropping of br its messing up my alignment and it did with this card. I dont think its a big issue so im going to skip for now but annoying.
+## They also have some weird alignment going in on the last column if you look I dont know the best way to do that to make the two cards above the others.
+## ***~~ tried responsive~~***
+
+
+
+
+
