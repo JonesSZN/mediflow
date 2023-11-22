@@ -8,7 +8,7 @@
 # Team section card is too big compared to theirs.
 ## the images in team section is awful, they didnt have their imgs in src.
 ## The hover effects are awful and bugged.
-##Layout Perfeced.
+## Layout Perfected.
 # tried responsive.
 
   
@@ -25,8 +25,6 @@
 
 
 ## the things That im not confident are that form, making cards very similar in terms of width/ not using brs, weird alingment things when its not centered like the cards in review-section, responsive, not sure if i need to be putting widths on images like I did.
-
-
 
 
 
