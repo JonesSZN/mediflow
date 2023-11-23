@@ -25,7 +25,7 @@ section {
 }
 @media screen and (max-width: 1120px) {
     section {
-        padding: 240px 0;
+        padding: 24px 0;
     }
 }
 
@@ -134,7 +134,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     padding: 80px 40px;
     box-sizing: border-box;
     border-radius: 24px;
@@ -206,9 +205,7 @@ ul {
 /* MEDICAL-SECTION */
 .medical-section-content {
     display: flex;
-
     flex-direction: column;
-    width: 100%;
     gap: 20px;
 }
 .medical-row {
@@ -308,7 +305,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     background-color: #eff6ff;
     border-radius: 20px;
     padding: 50px;
@@ -549,7 +545,7 @@ p {
         grid-template-columns: 1fr;
     }
     .team-card {
-        width: 95%;
+        width: 100%;
     }
     .top-team-group h2 {
         font-size: 24px;
