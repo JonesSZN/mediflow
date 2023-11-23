@@ -231,8 +231,19 @@ ul {
 .medical-card:hover {
   transition: ease-in-out;
   transition: 0.3s;
-  color: var(--blue);
+
   background-color: #eff6ff;
+}
+.medical-card:hover h3 {
+  transition: ease-in;
+  transition: 0.2s;
+  color: var(--blue);
+}
+.medical-card:hover :nth-child(1) img {
+  transition: ease-in;
+  transition: 0.4s;
+  border: 1px solid var(--blue);
+  background-color: #f7f7f8;
 }
 .medical-card img {
   width: 45px;
@@ -835,5 +846,86 @@ textarea {
   }
   .input-group {
     width: 100%;
+  }
+}
+/* APPOINTMENT-END */
+/* ARTICLE-SECTION */
+.article-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+  padding: 80px 0px;
+}
+.article-justify-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.row-container {
+  display: flex;
+  gap: 30px;
+}
+.article-card {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  gap: 15px;
+  padding: 25px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.article-row-text {
+  display: flex;
+  gap: 20px;
+}
+/* TEXT-STYLES */
+.article-card img {
+  border-radius: 20px;
+  transition: ease-in-out;
+  transition: 0.4s;
+}
+.left-article p {
+  max-width: 750px;
+}
+.article-card p,
+h3 {
+  margin: 0;
+}
+/* HOVER-EFFECTS */
+.article-card:hover {
+  transition: ease-in;
+  transition: 0.3s;
+  background-color: #eff6ff;
+}
+.article-card:hover h3 {
+  transition: ease-in;
+  transition: 0.2s;
+  color: var(--blue);
+}
+.article-card:hover img {
+  transform: scale(104%);
+  transition: ease-in-out;
+  transition: 0.5s;
+}
+/* RESPONSIVE */
+
+@media screen and (max-width: 1120px) {
+  .row-container {
+    flex-direction: column;
+  }
+  .article-justify-between {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .article-card {
+    width: 100%;
+  }
+  .article-section {
+    width: 95%;
   }
 }
