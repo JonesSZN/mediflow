@@ -1014,3 +1014,89 @@ h3 {
     max-width: 200px;
   }
 }
+/* VISIT-END */
+/* FOOTER */
+footer {
+  width: 100%;
+  display: flex;
+  padding: 80px 0px;
+  justify-content: center;
+  border-top: 1px solid var(--blue);
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.footer-row-container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.footer-nav-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-column-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.right-column-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.mediflow-left-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.utility-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-btm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-btm-right {
+  display: flex;
+  gap: 10px;
+}
+/* TEXT-STYLES */
+.mediflow-left-text p {
+  max-width: 350px;
+}
+.contact-row img {
+  width: 30px;
+}
+.mediflow-left-text img {
+  max-width: 200px;
+}
+.mediflow-left-text button {
+  padding: 20px;
+  font-size: 20px;
+}
+.footer-btm img {
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+}
