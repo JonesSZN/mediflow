@@ -836,18 +836,37 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 60px 0;
+  }
+  h2 {
+    margin: 0;
   }
   .appointment-left img {
     width: 100%;
+    display: none;
   }
+  .appointment-right {
+    align-items: start;
+  }
+  .appointment-right span {
+    font-size: 35px;
+  }
+
   form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr;
   }
   .input-group {
     width: 100%;
+  }
+  .input-group input {
+    padding: 8px 24px;
+    border-radius: 999px;
+  }
+  .input-group textarea {
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px !important;
   }
 }
 /* APPOINTMENT-END */
@@ -916,6 +935,7 @@ h3 {
 
 @media screen and (max-width: 1120px) {
   .row-container {
+    display: flex;
     flex-direction: column;
     width: 95%;
   }
@@ -994,6 +1014,7 @@ h3 {
 .top-visit-text h2 {
   font-size: 48px;
 }
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 1120px) {
@@ -1073,7 +1094,10 @@ footer {
 }
 .footer-btm {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  gap: 22px;
+
   align-items: center;
 }
 .footer-btm-right {
@@ -1099,4 +1123,12 @@ footer {
   border-radius: 50%;
   border: 1px solid gray;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer-row-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 }
